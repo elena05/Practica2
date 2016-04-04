@@ -11,5 +11,21 @@ public class Calculadora {
 	}
 	
 	
-	public 
+	public int Suma() {
+		
+		return this.n1 + this.n2; 
+	}
+	
+	public int Resta() {
+		return this.n1 - this.n2;
+	}
+	
+	public int Multiplicacion() {
+		return this.n1 * this.n2;
+	}
+	
+	public double Division() {
+		return (double)this.n1 / this.n2;
+	}
+	
 }
